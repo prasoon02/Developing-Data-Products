@@ -1,0 +1,45 @@
+---
+title       : Interest Calculator
+author      : Prasoon
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+logo        : logo.png
+---
+
+## Problem
+
+Amount of interest is always an important factor that is taken into amount when making an investment decisions. Interest rates are the reason why many people keep their money in fixed deposists rather than investing it because it has considerablly lesser amount of risk associated with it than its other counterparts.
+
+Hence, in this presentation we'll look how much fixed deposits yield interest in the present market place.
+---
+
+## Proposed Solution
+
+To make it easy for the people looking to invest without having to bear high  risks we'll look into the yields of fixed deposits. Since, we get about an average of 7 to 11 percent of interest rates, we'll take 9 percent as the average interst offered in the market. Also the average length of fixed deposits range from 5 to 15 years we'll take 10 years as our duration.
+The solution can be very simple with the help of  a web application that takes in the numbers about the deposit and calculates the interest for the depositor.
+
+---
+
+## Submitted Solution
+
+So to calculate the interest that is for priniciple amount which equals to $5000 and the interest rate is at 9 percent for the duration of 10 year, we use the web application and run the following.
+
+```{r}
+5000 *(1+0.09)^10
+```
+
+We can see that, fixed deposits can give considerable return with low risk as in 10 years the amount is $11837.
+
+---
+
+## Thanks and feedback location
+
+I hope this helps you with your property investing decisions.
+
+Please visit https://github.com/prasoon02
+
+Thank you.
